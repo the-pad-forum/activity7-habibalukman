@@ -16,6 +16,15 @@
   
   #options button {
     margin-right: 8px;
+    display: list-item;
+    width: 100%;
+    text-align: left;
+    background-color: #f0f8ff;
+    color: #000;
+  }
+  #options button :hover{
+    background-color: #d4edda;
+    border: 1px solid #f0f8ff;
   }
   
   #quiz-container {
